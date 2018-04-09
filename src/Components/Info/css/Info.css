@@ -1,0 +1,32 @@
+html [type=button] {
+  -webkit-appearance: none;
+}
+
+.App-background-2{
+  height: 30rem;
+  width: 100%;
+}
+
+.bg-warning{
+  background-color: #fac81c !important;
+}
+
+.App-position-button{
+  top: 72%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  height: 15%;
+}
+
+.App-position-p{
+  top: 55%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+}
+
+.App-position-h3{
+  top: 30% !important;
+  left: 72% !important;
+  transform: translate(-50%, -50%);
+}

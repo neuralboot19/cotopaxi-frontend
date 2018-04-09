@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(~/Fonts/montserrat-black_[allfont.es].ttf) format("truetype");
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  height: 10vh;
+  padding: 1rem;
+  color: white;
+  font-family: montserrat !importat;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+.App-Menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.App-Menu li{
+  display: inline-block;
+  padding-right: 1rem;
+}
