@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 // Assets
-import './css/ModalCandidate.css'
+import './css/Modal.css'
 
 class ModalCandidate extends Component {
   static propTypes = {

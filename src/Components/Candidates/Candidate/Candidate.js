@@ -37,7 +37,7 @@ class Candidate extends Component {
         <article className="col-3 my-3 position-relative overflow-hidden">
         	<div className="row">
         	  <div className="col d-flex justify-content-center">
-        	  	<div className="card">
+        	  	<div className="card border-0 bg-transparent">
         	  	  <img src={candidate.image} className="App-card-img" alt="avatar" />
     	          <h3 className="text-white position-absolute App-position-h3-text">{candidate.full_name}</h3>
     	        </div>
