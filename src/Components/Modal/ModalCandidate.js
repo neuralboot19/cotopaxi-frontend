@@ -32,6 +32,7 @@ class ModalCandidate extends Component {
       console.log(response.status); // ex.: 200
     }).catch(function (error) {
       alert(error.response.data.message);
+      localStorage.removeItem("token");
     });
   }
   render() {
