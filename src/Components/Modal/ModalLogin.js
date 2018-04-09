@@ -8,6 +8,7 @@ import axios from 'axios';
 
 class ModalLogin extends Component {
   responseFacebook(response) {
+    console.log(response);
     var token = localStorage.getItem("token");
     if (token !== "" && token !== null) {
     } else {
@@ -41,7 +42,7 @@ class ModalLogin extends Component {
                 appId="489206864813339"
                 autoLoad={true}
                 fields="name,email,picture"
-                scope="public_profile,user_friends,user_actions.books"
+                scope="email"
                 callback={this.responseFacebook}
                 render={renderProps => (
                   <button onClick={renderProps.onClick} className="btn btn-block btn-social btn-facebook btn-block-facebook font-weight-bold">Facebook</button>
