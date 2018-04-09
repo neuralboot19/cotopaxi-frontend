@@ -17,7 +17,7 @@ class Candidate extends Component {
     var token = localStorage.getItem("token");
     if (token !== "" && token !== null) {
       const {candidate} = this.props;
-      axios.get("https://cotopaxi-api.herokuapp.com/candidates/"+candidate.id)
+      axios.get("https://cotopaxi-backend-api.herokuapp.com/candidates/"+candidate.id)
         .then(res => {
           const votes = res.data.votes;
           this.setState({ votes });

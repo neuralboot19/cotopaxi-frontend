@@ -14,7 +14,7 @@ class ModalLogin extends Component {
     } else {
       localStorage.setItem("token", response.accessToken);
       token = localStorage.getItem("token");
-      var url = 'https://cotopaxi-api.herokuapp.com/users';
+      var url = 'https://cotopaxi-backend-api.herokuapp.com/users';
       const data = { 'user': { 'facebook_access_token' : token } };
       const options = {
         method: 'POST',

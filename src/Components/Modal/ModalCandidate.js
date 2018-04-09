@@ -17,7 +17,7 @@ class ModalCandidate extends Component {
   }
   onVote(id, event) {
     var token = localStorage.getItem("token");
-    var url = 'https://cotopaxi-api.herokuapp.com/vote';
+    var url = 'https://cotopaxi-backend-api.herokuapp.com/vote';
     const data = { "candidate": { "id": id } };
     const options = {
       method: 'POST',

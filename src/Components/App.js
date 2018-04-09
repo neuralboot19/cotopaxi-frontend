@@ -17,7 +17,7 @@ class App extends Component {
     candidates: []
   }
   componentDidMount() {
-    axios.get(`https://cotopaxi-api.herokuapp.com/candidates/`)
+    axios.get(`https://cotopaxi-backend-api.herokuapp.com/candidates/`)
       .then(res => {
         console.log(res.data)
         const candidates = res.data;
