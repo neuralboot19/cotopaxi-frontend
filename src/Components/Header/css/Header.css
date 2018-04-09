@@ -31,3 +31,11 @@
   display: inline-block;
   padding-right: 1rem;
 }
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #343a40;
+}

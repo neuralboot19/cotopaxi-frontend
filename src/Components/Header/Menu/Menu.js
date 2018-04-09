@@ -1,7 +1,7 @@
 export default[
 	{
 		title: 'Votación',
-		url: '/'
+		url: '#vota'
 	},
 	{
 		title: 'Bases del concurso',

@@ -24,6 +24,10 @@
   font-weight: bold;
 }
 
+.App-position-h3-text:hover{
+  color: #343a40 !important;
+}
+
 .Candidates {
   background-image: url(../img/landing4.png);
   padding-top: 10rem !important;

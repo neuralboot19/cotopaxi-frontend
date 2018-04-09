@@ -17,7 +17,7 @@ class Candidates extends Component {
   render() {
     const {candidates} = this.props;
     return (
-      <section className="position-relative overflow-hidden Candidates">
+      <section className="position-relative overflow-hidden Candidates" id="vota">
         <article className="row d-flex justify-content-center">
           {candidates && candidates.map((c, key) => <div><Candidate key={key} candidate={c}/><ModalVotoCompletado candidate={c} /></div> )}
           <ModalLogin />

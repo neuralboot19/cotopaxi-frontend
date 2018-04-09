@@ -18,7 +18,7 @@ class Header extends Component {
         <article className="row App-header d-flex align-items-center">
           <img src={Logo} className="col-2 App-logo" alt="logo" />
           <ul className="col-10 App-Menu ">
-            {items && items.map((items, key) => <li key={key}><a>{items.title}</a></li>)}
+            {items && items.map((items, key) => <li key={key}><a href={items.url}>{items.title}</a></li>)}
           </ul>
         </article>
       </section>
