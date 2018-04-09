@@ -23,7 +23,7 @@ class ModalLogin extends Component {
       };
       axios(options)
       .then(function(response){
-        alert('Usted ya puede Votar')
+        alert('Usted se ha logueado satisfactoriamente')
       }).catch(function(error){
         console.log(error);
       });
