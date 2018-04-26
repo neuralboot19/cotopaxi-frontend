@@ -19,7 +19,7 @@ class Candidates extends Component {
     return (
       <section className="position-relative overflow-hidden Candidates" id="vota">
         <article className="row d-flex justify-content-center">
-          {candidates && candidates.map((c, key) => <div><Candidate key={key} candidate={c}/><ModalVotoCompletado candidate={c} /></div> )}
+          {candidates && candidates.map((c, key) => <div key={key}><Candidate candidate={c}/><ModalVotoCompletado candidate={c} /></div> )}
           <ModalLogin />
         </article>
         <article className="d-flex align-items-end flex-column style">

@@ -33,7 +33,7 @@ class Candidate extends Component {
   render() {
     const {candidate} = this.props;
     return (
-      <a type="button" onClick={(e) => this.onItemClick(candidate.id, e)} href="#">
+      <a type="button" onClick={(e) => this.onItemClick(candidate.id, e)} href="##">
         <article className="col-3 my-3 position-relative overflow-hidden">
         	<div className="row">
         	  <div className="col d-flex justify-content-center">
